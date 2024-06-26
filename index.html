@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Sistema de Tabelas</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .barra-ferramentas .btn i {
+            font-size: 30px;
+        }
+        .btn-totem {
+            background-color: rgb(14, 14, 48);
+            color: #ffffff;
+        }
+        .btn-totem:hover{
+            background-color: darkblue;
+        }
+        a {
+          color: #ffffff;
+          text-decoration: none;
+        }
+        .container{
+            padding: 20px;
+        }
+        .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+            color: white;
+        }
+        .nav-link:focus, .nav-link:hover{
+            color: white[];
+        }
+        .nav-link{
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style= "background-color: rgb(56, 56, 124);" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Sistema de Tabelas</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cadastrar
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="cadastro/tabela01.html">Cadastrar Operadores</a></li>
+                  <li><a class="dropdown-item" href="cadastro/tabela02.html">Cadastrar Senhas</a></li>
+                  <li><a class="dropdown-item" href="cadastro/tabela03.html">Cadastrar Balcões</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Relatórios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="tabela/relatorio.html">Relatórios de Atendimentos</a></li>
+                  <li><a class="dropdown-item" href="tabela/relatorio2.html">Relatórios de Clientes</a></li>
+                </ul>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container text-center">
+        <div class="btn-group barra-ferramentas" role="group" aria-label="Basic example">
+          <a href="paineis/guiche1.html"><button type="button" class="btn btn-totem btn1"><i class="bi bi-lock-fill"></i></a></button>
+          <a href="paineis/guiche2.html"><button type="button" class="btn btn-totem"><i class="bi bi-pass-fill"></i></a></button>
+          <a href="paineis/telatotem.html"><button type="button" class="btn btn-totem"><i class="bi bi-passport-fill"></i></a></button>
+          </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

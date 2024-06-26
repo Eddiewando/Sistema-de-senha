@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel</title>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: white;
+        }
+        .btn {
+            font-size: 2.9rem;
+            width: 100%;
+            text-transform: uppercase;
+        }
+        .btn-balcao {
+            background-color: #e3e3e3;
+            color: #616161;
+        }
+        .btn-senha {
+            background-color: #61616193;
+            color: #000000;
+        }
+        .row {
+            padding-bottom: 5px;
+        }
+        marquee {
+            color: #ffffff;
+            font-size: 4rem;
+            text-transform: uppercase;
+        }
+        .btn-balcaosenha .btn-group .btn {
+            font-size: 1rem;
+            color: #000000;
+        }
+        .btn-balcaosenha .col-4 {
+            display: flex;
+            align-items: end;
+        }
+        .btn-balcaosenha .col-8 .btn {
+            color: #000000;
+        }
+        .btn-totem {
+            background-color:  rgb(14, 14, 48);
+            color: #ffffff;
+        }
+        .btn-totem:hover{
+            background-color: darkblue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row btn-balcaosenha">
+            <div class="col-8">
+                <button type="button" class="btn">Sistema de Senhas</button>
+            </div>
+            <div class="col-4">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn ">Balcão</button>
+                    <button type="button" class="btn ">Senha</button>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <button type="button" class="btn btn-totem">Atendimento Geral</button>
+            </div>
+            <div class="col-4">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-balcao">G</button>
+                    <button type="button" class="btn btn-senha">123</button>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <button type="button" class="btn btn-totem">Atendimento Prioritário</button>
+            </div>
+            <div class="col-4">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-balcao">G</button>
+                    <button type="button" class="btn btn-senha">123</button>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <button type="button" class="btn btn-totem">Atendimento Normal</button>
+            </div>
+            <div class="col-4">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-balcao">G</button>
+                    <button type="button" class="btn btn-senha">123</button>
+                  </div>
+            </div>
+        </div>
+        <marquee>Tio Paulo não tem prioridade!</marquee>
+    </div>
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
